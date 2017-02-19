@@ -7,7 +7,7 @@ require '../vendor/autoload.php';
 use CheckoutFinland\Payment;
 use CheckoutFinland\Client;
 
-$demo_merchant_id       = "375917";
+$demo_merchant_id       = "375917";   //Need to get this from Checkout test account
 $demo_merchant_secret   = "SAIPPUAKAUPPIAS";
 $return_url             = 'http://' .$_SERVER['SERVER_NAME'] .str_replace('checkout.php', 'return.php', $_SERVER['REQUEST_URI']);
 
